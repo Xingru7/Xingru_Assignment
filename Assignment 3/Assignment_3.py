@@ -33,9 +33,9 @@ time.sleep(5)
 
 
 # Selecting a product of the bestsellers from the search results
-best_sellers_link = driver.find_element("xpath", "/html/body/div[1]/div[2]/div[2]/div/div/div/div[2]/div/div[1]/div/div[1]/div/div/div/div/div[2]/div/div[2]/div/ol/li[2]/div[2]/div/a[1]/div/img")
-# best_sellers_link = driver.find_element("By.CSS_SELECTOR","span[data-component-type='s-product-image'] a")
-best_sellers_link.click()
+best_seller_link = driver.find_element("xpath", "/html/body/div[1]/div[2]/div[2]/div/div/div/div[2]/div/div[1]/div/div[1]/div/div/div/div/div[2]/div/div[2]/div/ol/li[2]/div[2]/div/a[1]/div/img")
+# best_seller_link = driver.find_element("By.CSS_SELECTOR","span[data-component-type='s-product-image'] a")
+best_seller_link.click()
 
 # Waiting for the bestseller details page to load
 time.sleep(5)
